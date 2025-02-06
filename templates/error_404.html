@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='terzo.css') }}">
+<script src="{{ url_for('static', filename='terzo.js') }}"></script>
+
+{% endblock %}
+
+{% block body %}
+<h2 class="exo-terzo">Error: 404 Rizz Not Found</h2>
+<p><img src="/static/Rizz-Not-Found_10MAY2024.png"></p>
+
+<button id="back_button" onclick="history.back()">&#9665; Back</button>
+<button id="back_button" disabled>Forward &#9655; </button>
+{% endblock %}

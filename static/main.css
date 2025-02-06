@@ -1,0 +1,136 @@
+/*
+
+  Terzo Technical
+  Copyright (c) 2025
+  New intellectual property for the modern era.
+
+*/
+
+body {
+  
+    font-family: sans-serif;
+  }
+
+a {
+  
+  text-decoration-line: none;
+}
+  
+.fancy {
+  display: inline-block;
+  background: tomato;
+  color: white;
+  padding: 18px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 8px    ;
+  cursor: pointer;
+  border: none;
+}
+
+.feature {
+  width: 256px;
+  display: inline;
+}
+
+.column_left {
+  float : left;
+  width: 30%;
+}
+
+.column_right {
+  float : right;
+  width: 67%;
+}
+
+.optional_pm {
+  display: none;
+}
+
+.optional_out {
+  display: none;
+}
+
+.optional_guru {
+  display: none;
+}
+
+.optional_it {
+  display: none;
+}
+
+.optional_developer {
+  display: none;
+}
+
+.optional_logistics {
+  display: none;
+}
+
+.optional_support {
+  display: none;
+}
+
+.optional_analytics {
+  display: block;
+}
+
+h1, h2, h3, h4, .exo-2-bold {
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  /* border: 1px black solid; */
+  margin: 4px 4px;
+}
+
+p, li, .oswald-regular {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 4px 4px;
+}
+
+@media screen {
+  body {
+    color: black;
+  }
+  
+  .input_group {
+    border: 1px solid green
+  }
+
+  #footer {
+    border-width: 2px 0px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  
+  .smaller {
+    font-size: 14px;
+  }
+  
+  .input_group {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+}

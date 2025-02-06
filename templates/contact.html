@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='terzo.css') }}">
+<script src="{{ url_for('static', filename='terzo.js') }}"></script>
+
+{% endblock %}
+
+{% block body %}
+<h2 class="exo-terzo">Contact Us</h2>
+<p>To reach <a href="http://www.terzotechnical.com" target="_blank">Terzo Technical &#11193;</a> 
+    please contact <a href="https://shannonware.com" target="_blank">Shannon Ware &#11193;</a>
+     at <a href=mailto:photius@shannonware.com?subject=Incoming%20Email%20from%20Internet%20Web%20Page&body=Hello%20Terzo%20Technical!%20 target="_blank">photius at shannon ware dot com &#11193;</a>.</p>
+
+     <button id="back_button" onclick="history.back()">&#9665; Back</button>
+    <button id="back_button"  onclick="history.forward()">Forward &#9655; </button>
+{% endblock %}
