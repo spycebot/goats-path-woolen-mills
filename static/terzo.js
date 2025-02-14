@@ -1,34 +1,10 @@
 /* 
 
-console.log(inputValue)
+Replace low res images with high res images.
 */
-console.log("Hello, Console!");
-input = document.getElementById("form_seeker_role");
-// document.getElementById("form_seeker_role").innerHTML("TEST");
-// input.innerText("TEST");
-// console.log(input.innerHTML);
-// const inputValue = input.value;
 
-const wrapper = document.getElementById('column_left');
-
-console.log("dir wrapper children");
-console.dir(wrapper.children);
-
-wrapper.addEventListener('click', (event) => {
-    const isButton = event.target.nodeName === 'BUTTON';
-    if (!isButton) {
-        //console.log("Wrapper click not button")
-        return;
-    }
-})
-
-const collection = document.getElementsByClassName("optional");
-console.log("dir collection");
-console.dir(collection);
-for (let i = 0; i < collection.length; i++) {
-    collection[i].addEventListener('click', (event) => {
-        console.log(collection[i].name)
-        console.dir(this);
-        console.dir(event.target.id);
-    })
-}
+window.onload = function loadStuff() {
+    console.log("Begin...");
+    document.getElementById("hero").src="/static/images/IMG_20250202_173854_Hero_1024x681.jpg"
+    console.log("End.");
+  };

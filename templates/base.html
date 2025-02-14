@@ -6,14 +6,20 @@
     <meta name="google-adsense-account" content="ca-pub-5714407334718985">
     <!-- OK link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css" -->
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='logo.svg') }}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&family=Special+Elite&family=Syne+Mono&family=Tillana&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='terzo.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5714407334718985"
      crossorigin="anonymous"></script>
     {% block head %}{% endblock %}
 </head>
 <body>
-    <a href="/"><h1>Goats Path Woolen Mills</h1></a>
+    <a href="/"><h1>Goats Path Woollen Mills</h1></a>
     
     {% block body %}
     {% endblock %}
@@ -25,5 +31,7 @@
         <a href="/contact">Contact</a>
         |
     </section>
+    
+    <script src="{{ url_for('static', filename='terzo.js') }}"></script>
 </body>
 </html>

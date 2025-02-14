@@ -7,81 +7,87 @@
 */
 
 body {
-  
-    font-family: sans-serif;
-  }
-
-  a {
-    
-    text-decoration-line: none;
-  }
-  
-.fancy {
-  display: inline-block;
-  background: tomato;
-  color: white;
-  padding: 18px;
-  font-size: 18px;
-  font-family: sans-serif;
-  font-weight: bold;
-  border-radius: 8px    ;
-  cursor: pointer;
-  border: none;
-}
-
-.feature {
-  width: 256px;
-  display: inline;
-}
-
-.column_left {
-  float : left;
-  width: 30%;
-}
-
-.column_right {
-  float : right;
-  width: 67%;
-}
-
-/*
-.optional_it {
-  display: block;
-}
-
-.optional_pm {
-  display: block;
-}
-
-.optional_logistics {
-  display: block;
-}
-
-.optional_out {
-  display: none;
-}
-
-.optional_guru {
-  display: block;
-}
-  */
-
-h1, h2, h3, h4, .exo-2-bold {
-  font-family: "Exo 2", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  /* border: 1px black solid; */
-  margin: 4px 4px;
-}
-
-p, li, .oswald-regular {
-  font-family: "Oswald", serif;
+  font-size : 200%;
+  font-family: "Faustina", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  margin: 4px 4px;
 }
+
+p { 
+  padding: 4px 8px 4px 16px;
+}
+
+.faustina-regular {
+  font-family: "Faustina", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faustina-heavy {
+  font-family: "Faustina", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.sigmar-regular {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sigmar-heavy {
+  font-family: "Sigmar", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.chango-regular {
+  font-family: "Chango", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chango-heavy {
+  font-family: "Chango", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.notable-regular {
+  font-family: "Notable", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.notable-heavy {
+  font-family: "Notable", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: "Notable", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#hero {
+  width: 110%;
+  margin: -10px;
+  padding: 0px;
+  /* filter: hue-rotate(45deg); */
+  /* filter: blur(20px); */
+}
+
+/*
+.post-header-enhanced {
+  background-image: url(IMG_20250202_173854_Hero_1024x681.jpg);
+}
+*/
 
 @media screen {
   body {

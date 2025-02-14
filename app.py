@@ -45,9 +45,9 @@ def contact():
     return render_template('contact.html')
 
 
-@app.get('/cv')
-def cv():
-    return render_template('cv.html')
+@app.get('/design')
+def design():
+    return render_template('design.html')
 
 
 
