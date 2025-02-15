@@ -68,7 +68,17 @@ p {
   font-style: normal;
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2, h3 {
   font-family: "Notable", serif;
   font-weight: 400;
   font-style: normal;
@@ -81,6 +91,10 @@ h1, h2, h3 {
   padding: 0px;
   /* filter: hue-rotate(45deg); */
   /* filter: blur(20px); */
+}
+
+.wool-image {
+  width: 100%;
 }
 
 /*
