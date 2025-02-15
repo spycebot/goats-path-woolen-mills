@@ -90,11 +90,12 @@ h2, h3 {
   margin: -10px;
   padding: 0px;
   /* filter: hue-rotate(45deg); */
-  /* filter: blur(20px); */
+  filter: blur(20px);
 }
 
 .wool-image {
   width: 100%;
+  filter: blur(20px);
 }
 
 /*

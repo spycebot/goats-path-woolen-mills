@@ -7,9 +7,9 @@
 {% endblock %}
 
 {% block body %}
-<h2 class="exo-terzo">Error: 404 Wool Not Found</h2>
-<p><img src="/static/images/wool-not-found.png"></p>
+<h2>Error: 404 Wool Not Found</h2>
+<p><img src="{{ url_for('static', filename='images/wool-not-found-40x28.png') }}" id="wool-not-found" class="wool-image" /></p>
 
-<button id="back_button" onclick="history.back()">&#9665; Back</button>
-<button id="back_button" disabled>Forward &#9655; </button>
+<!-- button id="back_button" onclick="history.back()">&#9665; Back</button>
+<button id="back_button" disabled>Forward &#9655; </button -->
 {% endblock %}
